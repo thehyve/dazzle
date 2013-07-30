@@ -1,0 +1,33 @@
+<!DOCTYPE DASSTYLE SYSTEM "http://www.biodas.org/dtd/dasstyle.dtd"> 
+<DASSTYLE> 
+  <STYLESHEET version="0.1"> 
+
+      <CATEGORY id="default">
+        <TYPE id="gain">
+            <GLYPH>
+                <HISTOGRAM>
+                  <MIN>0</MIN>
+                  <MAX>1</MAX>
+                  <HEIGHT>60</HEIGHT>
+                  <COLOR1>red</COLOR1>
+                  <COLOR2>red</COLOR2>
+                  <LINEWIDTH>2</LINEWIDTH>
+                </HISTOGRAM>
+            </GLYPH>
+        </TYPE>
+        <TYPE id="loss">
+            <GLYPH>
+                <HISTOGRAM>
+                  <MIN>0</MIN>
+                  <MAX>-1</MAX>
+                  <HEIGHT>60</HEIGHT>
+                  <COLOR1>blue</COLOR1>
+                  <COLOR2>blue</COLOR2>
+                  <LINEWIDTH>2</LINEWIDTH>
+                </HISTOGRAM>
+            </GLYPH>
+        </TYPE>
+      </CATEGORY>
+
+  </STYLESHEET>
+</DASSTYLE>
